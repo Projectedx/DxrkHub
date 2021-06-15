@@ -1139,3 +1139,52 @@ TextButton_24.MouseButton1Down:connect(function()
 	Frame_2.Visible = false
 	Frame.Visible = true
 end)
+
+if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "DLQ",
+			[2] = "FS",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS", "BT", "MS", "JF", "PP" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+		print("dailys collected")
+	end
+
+if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "WLQ",
+			[2] = "FS1",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS1", "PP1", "BT1", "FS2", "BT2", "PP2", "FS3", "BT3", "PP3" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+	end
