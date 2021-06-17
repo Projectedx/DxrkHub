@@ -125,6 +125,7 @@ TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:connect(function()
 	Frame.Visible = false
+	Frame_2.Visible = true
 end)
 
 UICorner_2.Parent = TextButton
