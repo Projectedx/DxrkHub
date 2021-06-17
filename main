@@ -518,7 +518,7 @@ TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_13.TextScaled = true
 TextButton_13.TextSize = 14.000
 TextButton_13.TextWrapped = true
-TextButton_12.MouseButton1Down:connect(function()
+TextButton_13.MouseButton1Down:connect(function()
 	_G.on = 0
 	while _G.on == 1
 	do
