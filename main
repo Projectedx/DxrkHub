@@ -1,4 +1,4 @@
-print("NIGGERRSSSSS")
+print("NIGGERSSSS")
 
 -- Instances:
 
@@ -254,6 +254,542 @@ TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
+TextButton_8.MouseButton1Down:connect(function()
+	print("MADE BY ANWARUN")
+	print("SCRIPT BY: Dark Devs")
+
+	-- Anti Idle
+	local VirtualUser=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		VirtualUser:CaptureController()
+		VirtualUser:ClickButton2(Vector2.new())
+	end)
+
+
+	-- Objects
+
+	local Kontol = Instance.new("ScreenGui")
+	local MFrame = Instance.new("Frame")
+	local TFrame = Instance.new("Frame")
+	local GuiTitl = Instance.new("TextLabel")
+	local Anwarun = Instance.new("TextLabel")
+	local Tunda = Instance.new("TextButton")
+	local Tutup = Instance.new("TextButton")
+	local FF = Instance.new("TextButton")
+	local FFR = Instance.new("TextButton")
+	local FFC = Instance.new("TextButton")
+	local PF = Instance.new("TextButton")
+	local PF10 = Instance.new("TextButton")
+	local BF = Instance.new("TextButton")
+	local JF = Instance.new("TextButton")
+	local SF = Instance.new("TextButton")
+	local SF2 = Instance.new("TextButton")
+	local JF2 = Instance.new("TextButton")
+	local Tp = Instance.new("TextButton")
+	local TPFrame = Instance.new("Frame")
+	local Title = Instance.new("TextLabel")
+	local SZ = Instance.new("TextButton")
+	local CP = Instance.new("TextButton")
+	local IM = Instance.new("TextButton")
+	local T = Instance.new("TextButton")
+	local V = Instance.new("TextButton")
+	local C = Instance.new("TextButton")
+
+	-- Properties
+
+	Kontol.Name = "Kontol"
+	Kontol.Parent = game.CoreGui
+
+	MFrame.Name = "MFrame"
+	MFrame.Parent = Kontol
+	MFrame.Active = true
+	MFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+	MFrame.BackgroundTransparency = 0.10000000149012
+	MFrame.BorderColor3 = Color3.new(1, 0, 0)
+	MFrame.BorderSizePixel = 2
+	MFrame.Position = UDim2.new(0.347687393, 0, 0.212121204, 0)
+	MFrame.Size = UDim2.new(0, 321, 0, 284)
+	MFrame.Draggable = true
+
+	TFrame.Name = "TFrame"
+	TFrame.Parent = MFrame
+	TFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+	TFrame.BorderColor3 = Color3.new(1, 0, 0)
+	TFrame.BorderSizePixel = 2
+	TFrame.Size = UDim2.new(0, 321, 0, 21)
+
+	GuiTitl.Name = "GuiTitl"
+	GuiTitl.Parent = TFrame
+	GuiTitl.BackgroundColor3 = Color3.new(1, 1, 1)
+	GuiTitl.BackgroundTransparency = 1
+	GuiTitl.Position = UDim2.new(-0.0249221176, 0, 0, 0)
+	GuiTitl.Size = UDim2.new(0, 321, 0, 21)
+	GuiTitl.Font = Enum.Font.SciFi
+	GuiTitl.Text = "Super Power Training Gui"
+	GuiTitl.TextColor3 = Color3.new(1, 0, 0)
+	GuiTitl.TextSize = 20
+
+	Anwarun.Name = "Anwarun"
+	Anwarun.Parent = TFrame
+	Anwarun.BackgroundColor3 = Color3.new(1, 1, 1)
+	Anwarun.BackgroundTransparency = 1
+	Anwarun.Position = UDim2.new(0, 0, 12.2380953, 0)
+	Anwarun.Size = UDim2.new(0, 141, 0, 21)
+	Anwarun.Font = Enum.Font.SciFi
+	Anwarun.Text = "Made By Anwarun"
+	Anwarun.TextColor3 = Color3.new(1, 0, 0)
+	Anwarun.TextSize = 17
+
+	Tunda.Name = "Tunda"
+	Tunda.Parent = TFrame
+	Tunda.BackgroundColor3 = Color3.new(0, 0, 0)
+	Tunda.BorderColor3 = Color3.new(1, 0, 0)
+	Tunda.BorderSizePixel = 2
+	Tunda.Position = UDim2.new(0.850467324, 0, 0, 0)
+	Tunda.Size = UDim2.new(0, 24, 0, 21)
+	Tunda.Font = Enum.Font.Fantasy
+	Tunda.Text = "-"
+	Tunda.TextColor3 = Color3.new(1, 0, 0)
+	Tunda.TextSize = 25
+
+	Tutup.Name = "Tutup"
+	Tutup.Parent = TFrame
+	Tutup.BackgroundColor3 = Color3.new(0, 0, 0)
+	Tutup.BorderColor3 = Color3.new(1, 0, 0)
+	Tutup.BorderSizePixel = 2
+	Tutup.Position = UDim2.new(0.925233662, 0, 0, 0)
+	Tutup.Size = UDim2.new(0, 24, 0, 21)
+	Tutup.Font = Enum.Font.Fantasy
+	Tutup.Text = "X"
+	Tutup.TextColor3 = Color3.new(1, 0, 0)
+	Tutup.TextSize = 25
+
+	FF.Name = "FF"
+	FF.Parent = MFrame
+	FF.BackgroundColor3 = Color3.new(0, 0, 0)
+	FF.Position = UDim2.new(0.0355648547, 0, 0.107180536, 0)
+	FF.Size = UDim2.new(0, 136, 0, 33)
+	FF.Style = Enum.ButtonStyle.RobloxButtonDefault
+	FF.Font = Enum.Font.SciFi
+	FF.Text = "Fist Farm"
+	FF.TextColor3 = Color3.new(1, 0, 0)
+	FF.TextSize = 19
+
+	FFR.Name = "FFR"
+	FFR.Parent = MFrame
+	FFR.BackgroundColor3 = Color3.new(0, 0, 0)
+	FFR.Position = UDim2.new(0.531940222, 0, 0.107180536, 0)
+	FFR.Size = UDim2.new(0, 136, 0, 33)
+	FFR.Style = Enum.ButtonStyle.RobloxButtonDefault
+	FFR.Font = Enum.Font.SciFi
+	FFR.Text = "Fist Farm Rock"
+	FFR.TextColor3 = Color3.new(1, 0, 0)
+	FFR.TextSize = 19
+
+	FFC.Name = "FFC"
+	FFC.Parent = MFrame
+	FFC.BackgroundColor3 = Color3.new(0, 0, 0)
+	FFC.Position = UDim2.new(0.0334978402, 0, 0.253965884, 0)
+	FFC.Size = UDim2.new(0, 136, 0, 33)
+	FFC.Style = Enum.ButtonStyle.RobloxButtonDefault
+	FFC.Font = Enum.Font.SciFi
+	FFC.Text = "Fist Farm Crystal"
+	FFC.TextColor3 = Color3.new(1, 0, 0)
+	FFC.TextSize = 18
+
+	PF.Name = "PF"
+	PF.Parent = MFrame
+	PF.BackgroundColor3 = Color3.new(0, 0, 0)
+	PF.Position = UDim2.new(0.0355648547, 0, 0.6878618, 0)
+	PF.Size = UDim2.new(0, 136, 0, 33)
+	PF.Style = Enum.ButtonStyle.RobloxButtonDefault
+	PF.Font = Enum.Font.SciFi
+	PF.Text = "Psychic Farm"
+	PF.TextColor3 = Color3.new(1, 0, 0)
+	PF.TextSize = 19
+
+	PF10.Name = "PF10"
+	PF10.Parent = MFrame
+	PF10.BackgroundColor3 = Color3.new(0, 0, 0)
+	PF10.Position = UDim2.new(0.531940222, 0, 0.6878618, 0)
+	PF10.Size = UDim2.new(0, 136, 0, 33)
+	PF10.Style = Enum.ButtonStyle.RobloxButtonDefault
+	PF10.Font = Enum.Font.SciFi
+	PF10.Text = "Psychic Farm x10"
+	PF10.TextColor3 = Color3.new(1, 0, 0)
+	PF10.TextSize = 18
+
+	BF.Name = "BF"
+	BF.Parent = MFrame
+	BF.BackgroundColor3 = Color3.new(0, 0, 0)
+	BF.Position = UDim2.new(0.534007192, 0, 0.252693623, 0)
+	BF.Size = UDim2.new(0, 136, 0, 33)
+	BF.Style = Enum.ButtonStyle.RobloxButtonDefault
+	BF.Font = Enum.Font.SciFi
+	BF.Text = "BT Farm"
+	BF.TextColor3 = Color3.new(1, 0, 0)
+	BF.TextSize = 19
+
+	JF.Name = "JF"
+	JF.Parent = MFrame
+	JF.BackgroundColor3 = Color3.new(0, 0, 0)
+	JF.Position = UDim2.new(0.0355648547, 0, 0.402842462, 0)
+	JF.Size = UDim2.new(0, 136, 0, 33)
+	JF.Style = Enum.ButtonStyle.RobloxButtonDefault
+	JF.Font = Enum.Font.SciFi
+	JF.Text = "Jump Farm"
+	JF.TextColor3 = Color3.new(1, 0, 0)
+	JF.TextSize = 19
+
+	SF.Name = "SF"
+	SF.Parent = MFrame
+	SF.BackgroundColor3 = Color3.new(0, 0, 0)
+	SF.Position = UDim2.new(0.531940222, 0, 0.402842462, 0)
+	SF.Size = UDim2.new(0, 136, 0, 33)
+	SF.Style = Enum.ButtonStyle.RobloxButtonDefault
+	SF.Font = Enum.Font.SciFi
+	SF.Text = "Speed Farm"
+	SF.TextColor3 = Color3.new(1, 0, 0)
+	SF.TextSize = 19
+
+	SF2.Name = "SF2"
+	SF2.Parent = MFrame
+	SF2.BackgroundColor3 = Color3.new(0, 0, 0)
+	SF2.Position = UDim2.new(0.531940222, 0, 0.538204253, 0)
+	SF2.Size = UDim2.new(0, 136, 0, 33)
+	SF2.Style = Enum.ButtonStyle.RobloxButtonDefault
+	SF2.Font = Enum.Font.SciFi
+	SF2.Text = "Speed Farm x2"
+	SF2.TextColor3 = Color3.new(1, 0, 0)
+	SF2.TextSize = 19
+
+	JF2.Name = "JF2"
+	JF2.Parent = MFrame
+	JF2.BackgroundColor3 = Color3.new(0, 0, 0)
+	JF2.Position = UDim2.new(0.0355648547, 0, 0.539941967, 0)
+	JF2.Size = UDim2.new(0, 136, 0, 33)
+	JF2.Style = Enum.ButtonStyle.RobloxButtonDefault
+	JF2.Font = Enum.Font.SciFi
+	JF2.Text = "Jump Farm x2"
+	JF2.TextColor3 = Color3.new(1, 0, 0)
+	JF2.TextSize = 19
+
+	Tp.Name = "Tp"
+	Tp.Parent = MFrame
+	Tp.BackgroundColor3 = Color3.new(0, 0, 0)
+	Tp.Position = UDim2.new(0.457943916, 0, 0.834507048, 0)
+	Tp.Size = UDim2.new(0, 160, 0, 33)
+	Tp.Style = Enum.ButtonStyle.RobloxButtonDefault
+	Tp.Font = Enum.Font.SciFi
+	Tp.Text = "Teleport"
+	Tp.TextColor3 = Color3.new(1, 0, 0)
+	Tp.TextSize = 18
+
+	TPFrame.Name = "TPFrame"
+	TPFrame.Parent = MFrame
+	TPFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+	TPFrame.BorderColor3 = Color3.new(1, 0, 0)
+	TPFrame.BorderSizePixel = 2
+	TPFrame.Position = UDim2.new(-0.579439282, 0, 0, 0)
+	TPFrame.Size = UDim2.new(0, 178, 0, 284)
+	TPFrame.Visible = false
+
+	Title.Name = "Title"
+	Title.Parent = TPFrame
+	Title.BackgroundColor3 = Color3.new(0, 0, 0)
+	Title.BorderColor3 = Color3.new(1, 0, 0)
+	Title.BorderSizePixel = 2
+	Title.Size = UDim2.new(0, 178, 0, 33)
+	Title.Font = Enum.Font.SciFi
+	Title.Text = "Teleport"
+	Title.TextColor3 = Color3.new(1, 0, 0)
+	Title.TextSize = 20
+
+	SZ.Name = "SZ"
+	SZ.Parent = TPFrame
+	SZ.BackgroundColor3 = Color3.new(1, 1, 1)
+	SZ.Position = UDim2.new(0.0842696652, 0, 0.140845075, 0)
+	SZ.Size = UDim2.new(0, 147, 0, 32)
+	SZ.Style = Enum.ButtonStyle.RobloxButtonDefault
+	SZ.Font = Enum.Font.SciFi
+	SZ.Text = "Safe Zone"
+	SZ.TextColor3 = Color3.new(1, 0, 0)
+	SZ.TextSize = 19
+
+	CP.Name = "CP"
+	CP.Parent = TPFrame
+	CP.BackgroundColor3 = Color3.new(1, 1, 1)
+	CP.Position = UDim2.new(0.0842696652, 0, 0.288732409, 0)
+	CP.Size = UDim2.new(0, 147, 0, 32)
+	CP.Style = Enum.ButtonStyle.RobloxButtonDefault
+	CP.Font = Enum.Font.SciFi
+	CP.Text = "City Port"
+	CP.TextColor3 = Color3.new(1, 0, 0)
+	CP.TextSize = 19
+
+	IM.Name = "IM"
+	IM.Parent = TPFrame
+	IM.BackgroundColor3 = Color3.new(1, 1, 1)
+	IM.Position = UDim2.new(0.0842696652, 0, 0.426056355, 0)
+	IM.Size = UDim2.new(0, 147, 0, 32)
+	IM.Style = Enum.ButtonStyle.RobloxButtonDefault
+	IM.Font = Enum.Font.SciFi
+	IM.Text = "Ice Mountain"
+	IM.TextColor3 = Color3.new(1, 0, 0)
+	IM.TextSize = 19
+
+	T.Name = "T"
+	T.Parent = TPFrame
+	T.BackgroundColor3 = Color3.new(1, 1, 1)
+	T.Position = UDim2.new(0.0842696652, 0, 0.573943675, 0)
+	T.Size = UDim2.new(0, 147, 0, 32)
+	T.Style = Enum.ButtonStyle.RobloxButtonDefault
+	T.Font = Enum.Font.SciFi
+	T.Text = "Tornado"
+	T.TextColor3 = Color3.new(1, 0, 0)
+	T.TextSize = 19
+
+	V.Name = "V"
+	V.Parent = TPFrame
+	V.BackgroundColor3 = Color3.new(1, 1, 1)
+	V.Position = UDim2.new(0.0842696652, 0, 0.721830964, 0)
+	V.Size = UDim2.new(0, 147, 0, 32)
+	V.Style = Enum.ButtonStyle.RobloxButtonDefault
+	V.Font = Enum.Font.SciFi
+	V.Text = "Volcano"
+	V.TextColor3 = Color3.new(1, 0, 0)
+	V.TextSize = 19
+
+	C.Name = "C"
+	C.Parent = TPFrame
+	C.BackgroundColor3 = Color3.new(1, 1, 1)
+	C.Position = UDim2.new(0.0842696652, 0, 0.866197169, 0)
+	C.Size = UDim2.new(0, 147, 0, 32)
+	C.Style = Enum.ButtonStyle.RobloxButtonDefault
+	C.Font = Enum.Font.SciFi
+	C.Text = "Crystal"
+	C.TextColor3 = Color3.new(1, 0, 0)
+	C.TextSize = 19
+
+	-- Script Main Frame
+
+	Tutup.MouseButton1Down:connect(function()
+		Kontol:Destroy()
+	end)
+
+	kontol = false
+
+	Tunda.MouseButton1Click:connect(function()
+		if kontol == false then
+			MFrame:TweenSize(UDim2.new(0, 321, 0, 18),"In","Sine",0,true)
+			wait(0.1)
+			Tp.Visible = false
+			JF2.Visible = false
+			SF2.Visible = false
+			SF.Visible = false
+			JF.Visible = false
+			BF.Visible = false
+			PF10.Visible = false
+			PF.Visible = false
+			FFC.Visible = false
+			FFR.Visible = false
+			FF.Visible = false
+			TPFrame.Visible = false
+			kontol = true
+		else
+			MFrame:TweenSize(UDim2.new(0, 321, 0, 284),"In","Sine",0,true)
+			wait(0.1)
+			Tp.Visible = true
+			JF2.Visible = true
+			SF2.Visible = true
+			SF.Visible = true
+			JF.Visible = true
+			BF.Visible = true
+			PF10.Visible = true
+			PF.Visible = true
+			FFC.Visible = true
+			FFR.Visible = true
+			FF.Visible = true
+			kontol = false
+		end
+	end)
+
+	-- Pemberitahuan ( notify ) --
+
+	function notify(msg)
+		game.StarterGui:SetCore('SendNotification', {
+			Title = 'Get Rekt';
+			Text = msg;
+			Duration = 5;
+		})
+	end
+
+	-- Script TOMBOLL
+
+	JF.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+JF1"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	SF.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+MS1"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	SF2.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+MS5"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	JF2.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+JF5"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	FF.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+FS1"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	FFR.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+FS2"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	FFC.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+FS3"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	PF.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+PP1"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	PF10.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+PP2"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	BF.MouseButton1Click:connect(function()
+		while true do
+			wait()
+			local A_1 = 
+				{
+					[1] = "+BT1"
+				}
+			local Event = game.ReplicatedStorage.RemoteEvent
+			Event:FireServer(A_1)
+		end 
+	end)
+
+	-- TP
+
+	memek = false
+
+	Tp.MouseButton1Down:connect(function()
+		if memek == false then
+			TPFrame.Visible = true
+			memek = true
+		else
+			TPFrame.Visible = false
+			memek = false
+		end
+	end)
+
+	IM.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1577.74976, 256.837982, 2232.5354) 
+		notify'Teleported to Ice Mountain'
+	end)
+
+	SZ.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(459.3638, 248.993805, 892.707764) 
+		notify'Teleported to Safe Zone'
+	end)
+
+	CP.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(341.4534, 263.432434, -408.41333) 
+		notify'Teleported to City Port'
+	end)
+
+	T.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2301.5061, 1003.84021, 1069.53088) 
+		notify'Teleported to Tornado'
+	end)
+
+	V.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1971.78845, 749.285645, -1904.39258)
+		notify'Teleported to Volcano'
+	end)
+
+	C.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2278.21411, 1941.96082, 1017.19659)
+		notify'Teleported to Crystal'
+	end)
+end)
 
 TextButton_9.Parent = FarmingTab
 TextButton_9.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
