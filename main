@@ -1,80 +1,56 @@
-print("NIGGERSSS")
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
+local DxrkHub = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local Training = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local PvP = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local Fun = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local TrainingTab = Instance.new("Frame")
 local TextButton_2 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
 local TextButton_3 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local FarmingTab = Instance.new("Frame")
 local TextButton_4 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
 local TextButton_5 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
 local TextButton_6 = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local PvPTab = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 local TextButton_7 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
 local TextButton_8 = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
 local TextButton_9 = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
 local TextButton_10 = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
 local TextButton_11 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 local TextButton_12 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
 local TextButton_13 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local PvPTab = Instance.new("Frame")
 local TextButton_14 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local FunTab = Instance.new("Frame")
 local TextButton_15 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
 local TextButton_16 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
 local TextButton_17 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
 local TextButton_18 = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local TextButton_19 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
 local TextButton_20 = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
 local TextButton_21 = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
 local TextButton_22 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
 local TextButton_23 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
 local TextButton_24 = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local MiscTab = Instance.new("Frame")
 local TextButton_25 = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
 local TextButton_26 = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
 local TextButton_27 = Instance.new("TextButton")
-local respawn = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local respawn_2 = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local Frame_2 = Instance.new("Frame")
 local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+local TextButton_32 = Instance.new("TextButton")
+local TextButton_33 = Instance.new("TextButton")
+local TextButton_34 = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextButton_35 = Instance.new("TextButton")
 
 --Properties:
 
@@ -82,163 +58,122 @@ ScreenGui.Parent = game.CoreGui
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(0.329242408, 0, 0.175337136, 0)
-Frame.Size = UDim2.new(0, 421, 0, 373)
+Frame.Position = UDim2.new(0.380012393, 0, 0.259708732, 0)
+Frame.Size = UDim2.new(0, 387, 0, 335)
 Frame.Visible = false
-Frame.Active = true
 Frame.Draggable = true
+Frame.Active = true
 
-UICorner.CornerRadius = UDim.new(0, 9)
 UICorner.Parent = Frame
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0, 0, 0.0107238609, 0)
-TextLabel.Size = UDim2.new(0, 421, 0, 41)
-TextLabel.Font = Enum.Font.JosefinSans
-TextLabel.Text = "Dxrk Hub"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.Position = UDim2.new(-7.32131957e-05, 0, 0.122810587, 0)
-TextLabel_2.Size = UDim2.new(0, 421, 0, 1)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = ""
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 14.000
+DxrkHub.Name = "Dxrk Hub"
+DxrkHub.Parent = Frame
+DxrkHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DxrkHub.BackgroundTransparency = 1.000
+DxrkHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DxrkHub.Size = UDim2.new(0, 387, 0, 50)
+DxrkHub.Font = Enum.Font.SourceSansSemibold
+DxrkHub.Text = "Dxrk Hub"
+DxrkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DxrkHub.TextScaled = true
+DxrkHub.TextSize = 14.000
+DxrkHub.TextWrapped = true
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 1.000
-TextButton.Position = UDim2.new(0.835309744, 0, 0, 0)
-TextButton.Size = UDim2.new(0, 86, 0, 20)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Close"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton.Position = UDim2.new(0.0258397926, 0, 0.170149252, 0)
+TextButton.Size = UDim2.new(0, 118, 0, 24)
+TextButton.Font = Enum.Font.SourceSansSemibold
+TextButton.Text = "Farming"
+TextButton.TextColor3 = Color3.fromRGB(255, 241, 82)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:connect(function()
-	Frame.Visible = false
-	Frame_2.Visible = true
-end)
-
-UICorner_2.Parent = TextButton
-
-Training.Name = "Training"
-Training.Parent = Frame
-Training.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Training.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Training.Position = UDim2.new(0.0237529669, 0, 0.142091155, 0)
-Training.Size = UDim2.new(0, 119, 0, 28)
-Training.Font = Enum.Font.Highway
-Training.Text = "Training"
-Training.TextColor3 = Color3.fromRGB(255, 255, 255)
-Training.TextScaled = true
-Training.TextSize = 14.000
-Training.TextWrapped = true
-Training.MouseButton1Down:connect(function()
-	TrainingTab.Visible = true
+	FarmingTab.Visible = true
 	PvPTab.Visible = false
-	FunTab.Visible = false
+	MiscTab.Visible = false
 end)
 
-UICorner_3.Parent = Training
-
-PvP.Name = "PvP"
-PvP.Parent = Frame
-PvP.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-PvP.Position = UDim2.new(0.693586707, 0, 0.142091155, 0)
-PvP.Size = UDim2.new(0, 119, 0, 28)
-PvP.Font = Enum.Font.Highway
-PvP.Text = "PvP"
-PvP.TextColor3 = Color3.fromRGB(255, 255, 255)
-PvP.TextScaled = true
-PvP.TextSize = 14.000
-PvP.TextWrapped = true
-PvP.MouseButton1Down:connect(function()
-	TrainingTab.Visible = false
-	PvPTab.Visible = true
-	FunTab.Visible = false
-end)
-
-UICorner_4.Parent = PvP
-
-Fun.Name = "Fun"
-Fun.Parent = Frame
-Fun.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Fun.Position = UDim2.new(0.358669847, 0, 0.142091155, 0)
-Fun.Size = UDim2.new(0, 119, 0, 28)
-Fun.Font = Enum.Font.Highway
-Fun.Text = "Miscellaneous"
-Fun.TextColor3 = Color3.fromRGB(255, 255, 255)
-Fun.TextScaled = true
-Fun.TextSize = 14.000
-Fun.TextWrapped = true
-Fun.MouseButton1Down:connect(function()
-	TrainingTab.Visible = false
-	PvPTab.Visible = false
-	FunTab.Visible = true
-end)
-
-UICorner_5.Parent = Fun
-
-TrainingTab.Name = "TrainingTab"
-TrainingTab.Parent = Frame
-TrainingTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TrainingTab.BackgroundTransparency = 1.000
-TrainingTab.Position = UDim2.new(0, 0, 0.249329761, 0)
-TrainingTab.Size = UDim2.new(0, 421, 0, 280)
-TrainingTab.Visible = false
-
-TextButton_2.Parent = TrainingTab
-TextButton_2.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_2.Position = UDim2.new(0.0498812348, 0, 0.0500000007, 0)
-TextButton_2.Size = UDim2.new(0, 117, 0, 32)
-TextButton_2.Font = Enum.Font.Highway
-TextButton_2.Text = "Split"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_2.Position = UDim2.new(0.671834648, 0, 0.170149252, 0)
+TextButton_2.Size = UDim2.new(0, 118, 0, 24)
+TextButton_2.Font = Enum.Font.SourceSansSemibold
+TextButton_2.Text = "PvP"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 TextButton_2.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+	PvPTab.Visible = true
+	FarmingTab.Visible = false
+	MiscTab.Visible = false
 end)
 
-UICorner_6.Parent = TextButton_2
-
-TextButton_3.Parent = TrainingTab
-TextButton_3.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_3.Position = UDim2.new(0.361045122, 0, 0.0500000007, 0)
-TextButton_3.Size = UDim2.new(0, 117, 0, 32)
-TextButton_3.Font = Enum.Font.Highway
-TextButton_3.Text = "AutoFarm"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_3.Position = UDim2.new(0.346253246, 0, 0.170149267, 0)
+TextButton_3.Size = UDim2.new(0, 118, 0, 24)
+TextButton_3.Font = Enum.Font.SourceSansSemibold
+TextButton_3.Text = "Miscellaneous"
+TextButton_3.TextColor3 = Color3.fromRGB(3, 234, 255)
 TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 TextButton_3.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/jEVxSr36', true))()
+	PvPTab.Visible = false
+	FarmingTab.Visible = false
+	MiscTab.Visible = true
 end)
 
-UICorner_7.Parent = TextButton_3
+FarmingTab.Name = "FarmingTab"
+FarmingTab.Parent = Frame
+FarmingTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FarmingTab.BackgroundTransparency = 1.000
+FarmingTab.Position = UDim2.new(0, 0, 0.265671641, 0)
+FarmingTab.Size = UDim2.new(0, 387, 0, 246)
+FarmingTab.Visible = false
 
-TextButton_4.Parent = TrainingTab
-TextButton_4.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_4.Position = UDim2.new(0.674584329, 0, 0.0500000007, 0)
-TextButton_4.Size = UDim2.new(0, 117, 0, 32)
-TextButton_4.Font = Enum.Font.Highway
-TextButton_4.Text = "Fist Farm"
+TextButton_4.Parent = FarmingTab
+TextButton_4.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_4.Position = UDim2.new(0.0258397926, 0, 0.027872825, 0)
+TextButton_4.Size = UDim2.new(0, 118, 0, 24)
+TextButton_4.Font = Enum.Font.SourceSansSemibold
+TextButton_4.Text = "Split"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextScaled = true
 TextButton_4.TextSize = 14.000
 TextButton_4.TextWrapped = true
 TextButton_4.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+end)
+
+TextButton_5.Parent = FarmingTab
+TextButton_5.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_5.Position = UDim2.new(0.354005158, 0, 0.0278728455, 0)
+TextButton_5.Size = UDim2.new(0, 115, 0, 24)
+TextButton_5.Font = Enum.Font.SourceSansSemibold
+TextButton_5.Text = "AutoFarm"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/jEVxSr36', true))()
+end)
+
+TextButton_6.Parent = FarmingTab
+TextButton_6.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_6.Position = UDim2.new(0.68217057, 0, 0.0278728455, 0)
+TextButton_6.Size = UDim2.new(0, 114, 0, 24)
+TextButton_6.Font = Enum.Font.SourceSansSemibold
+TextButton_6.Text = "Fist Farm"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Down:connect(function()
 	game.Lighting.Blur.Enabled = false
 	game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
 	game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
@@ -278,42 +213,28 @@ TextButton_4.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_8.Parent = TextButton_4
+TextLabel.Parent = FarmingTab
+TextLabel.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel.Position = UDim2.new(0.0258397758, 0, 0.161497414, 0)
+TextLabel.Size = UDim2.new(0, 115, 0, 28)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "RepFarm"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-TextButton_5.Parent = TrainingTab
-TextButton_5.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_5.Position = UDim2.new(0.225653231, 0, 0.196428567, 0)
-TextButton_5.Size = UDim2.new(0, 117, 0, 32)
-TextButton_5.Font = Enum.Font.Highway
-TextButton_5.Text = "RepFarm On"
-TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextScaled = true
-TextButton_5.TextSize = 14.000
-TextButton_5.TextWrapped = true
-TextButton_5.MouseButton1Down:connect(function()
-	_G.on = 1
-
-	while _G.on == 1
-	do
-		game:GetService("ReplicatedStorage").RemoteEvent:FireServer({[1] = "Respawn"})
-		wait(2.0)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-267, 287, 984)
-	end
-end)
-
-UICorner_9.Parent = TextButton_5
-
-TextButton_6.Parent = TrainingTab
-TextButton_6.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_6.Position = UDim2.new(0.555819511, 0, 0.196428567, 0)
-TextButton_6.Size = UDim2.new(0, 117, 0, 32)
-TextButton_6.Font = Enum.Font.Highway
-TextButton_6.Text = "RepFarm Off"
-TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.TextScaled = true
-TextButton_6.TextSize = 14.000
-TextButton_6.TextWrapped = true
-TextButton_6.MouseButton1Down:connect(function()
+TextButton_7.Parent = FarmingTab
+TextButton_7.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_7.Position = UDim2.new(0.173126608, 0, 0.267710239, 0)
+TextButton_7.Size = UDim2.new(0, 57, 0, 24)
+TextButton_7.Font = Enum.Font.SourceSansSemibold
+TextButton_7.Text = "Off"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 1, 1)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+TextButton_7.MouseButton1Down:connect(function()
 	_G.on = 0
 
 	while _G.on == 1
@@ -324,87 +245,241 @@ TextButton_6.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_10.Parent = TextButton_6
-
-PvPTab.Name = "PvPTab"
-PvPTab.Parent = Frame
-PvPTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PvPTab.BackgroundTransparency = 1.000
-PvPTab.Position = UDim2.new(0, 0, 0.249329761, 0)
-PvPTab.Size = UDim2.new(0, 421, 0, 280)
-PvPTab.Visible = false
-
-TextButton_7.Parent = PvPTab
-TextButton_7.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_7.Position = UDim2.new(0.0451306403, 0, 0.0500000007, 0)
-TextButton_7.Size = UDim2.new(0, 117, 0, 32)
-TextButton_7.Font = Enum.Font.Highway
-TextButton_7.Text = "CMD-X"
-TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.TextScaled = true
-TextButton_7.TextSize = 14.000
-TextButton_7.TextWrapped = true
-TextButton_7.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-end)
-
-UICorner_11.Parent = TextButton_7
-
-TextButton_8.Parent = PvPTab
-TextButton_8.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_8.Position = UDim2.new(0.0451306403, 0, 0.235714287, 0)
-TextButton_8.Size = UDim2.new(0, 117, 0, 32)
-TextButton_8.Font = Enum.Font.Highway
-TextButton_8.Text = "Psychic All On"
+TextButton_8.Parent = FarmingTab
+TextButton_8.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_8.Position = UDim2.new(0.346253246, 0, 0.17827934, 0)
+TextButton_8.Size = UDim2.new(0, 118, 0, 24)
+TextButton_8.Font = Enum.Font.SourceSansSemibold
+TextButton_8.Text = "LowStat AutoFarm"
 TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
-TextButton_8.MouseButton1Down:connect(function()
-	_G.on = 1
-	while _G.on == 1
-	do
-		for i,v in pairs(game.Players:GetPlayers()) do
-			pcall(function()
-				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_Start",game.Players[v.Name]})
-				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_End"})
-			end)
 
-			wait()
-		end
-	end
-end)
-
-UICorner_12.Parent = TextButton_8
-
-TextButton_9.Parent = PvPTab
-TextButton_9.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_9.Position = UDim2.new(0.693586707, 0, 0.0500000007, 0)
-TextButton_9.Size = UDim2.new(0, 117, 0, 32)
-TextButton_9.Font = Enum.Font.Highway
-TextButton_9.Text = "Infinite Yield"
-TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Parent = FarmingTab
+TextButton_9.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_9.Position = UDim2.new(0.0258397926, 0, 0.267710239, 0)
+TextButton_9.Size = UDim2.new(0, 57, 0, 24)
+TextButton_9.Font = Enum.Font.SourceSansSemibold
+TextButton_9.Text = "On"
+TextButton_9.TextColor3 = Color3.fromRGB(78, 255, 3)
 TextButton_9.TextScaled = true
 TextButton_9.TextSize = 14.000
 TextButton_9.TextWrapped = true
 TextButton_9.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	_G.on = 1
+
+	while _G.on == 1
+	do
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer({[1] = "Respawn"})
+		wait(2.0)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-267, 287, 984)
+	end
 end)
 
-UICorner_13.Parent = TextButton_9
-
-TextButton_10.Parent = PvPTab
-TextButton_10.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_10.Position = UDim2.new(0.363420427, 0, 0.0500000007, 0)
-TextButton_10.Size = UDim2.new(0, 117, 0, 32)
-TextButton_10.Font = Enum.Font.Highway
-TextButton_10.Text = "AutoSpam On"
-TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Parent = FarmingTab
+TextButton_10.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_10.Position = UDim2.new(0.68217051, 0, 0.275840312, 0)
+TextButton_10.Size = UDim2.new(0, 57, 0, 24)
+TextButton_10.Font = Enum.Font.SourceSansSemibold
+TextButton_10.Text = "On"
+TextButton_10.TextColor3 = Color3.fromRGB(78, 255, 3)
 TextButton_10.TextScaled = true
 TextButton_10.TextSize = 14.000
 TextButton_10.TextWrapped = true
 TextButton_10.MouseButton1Down:connect(function()
 	_G.on = 1
+
+	while _G.on == 1
+	do
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer({[1] = "Respawn"})
+		wait(1.4)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-271, 281, 1005)
+	end
+
+end)
+
+TextButton_11.Parent = FarmingTab
+TextButton_11.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_11.Position = UDim2.new(0.829457402, 0, 0.275840312, 0)
+TextButton_11.Size = UDim2.new(0, 57, 0, 24)
+TextButton_11.Font = Enum.Font.SourceSansSemibold
+TextButton_11.Text = "Off"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 1, 1)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+TextButton_11.MouseButton1Down:connect(function()
+	_G.on = 0
+
+	while _G.on == 1
+	do
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer({[1] = "Respawn"})
+		wait(1.4)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-271, 281, 1005)
+	end
+
+end)
+
+
+TextLabel_2.Parent = FarmingTab
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_2.Position = UDim2.new(0.68217051, 0, 0.153367326, 0)
+TextLabel_2.Size = UDim2.new(0, 115, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Red OnDeath TP"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton_12.Parent = FarmingTab
+TextButton_12.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_12.Position = UDim2.new(0.671834648, 0, 0.450637043, 0)
+TextButton_12.Size = UDim2.new(0, 118, 0, 24)
+TextButton_12.Font = Enum.Font.SourceSansSemibold
+TextButton_12.Text = "Claim Weeklies"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+TextButton_12.MouseButton1Down:connect(function()
+	if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "WLQ",
+			[2] = "FS1",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS1", "PP1", "BT1", "FS2", "BT2", "PP2", "FS3", "BT3", "PP3" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+	end
+end)
+
+TextButton_13.Parent = FarmingTab
+TextButton_13.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_13.Position = UDim2.new(0.0258398056, 0, 0.450637043, 0)
+TextButton_13.Size = UDim2.new(0, 118, 0, 24)
+TextButton_13.Font = Enum.Font.SourceSansSemibold
+TextButton_13.Text = "Claim Dailies"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+TextButton_13.MouseButton1Down:connect(function()
+	if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "DLQ",
+			[2] = "FS",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS", "BT", "MS", "JF", "PP" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+		print("dailys collected")
+	end
+end)
+
+PvPTab.Name = "PvPTab"
+PvPTab.Parent = Frame
+PvPTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PvPTab.BackgroundTransparency = 1.000
+PvPTab.Position = UDim2.new(0, 0, 0.265671641, 0)
+PvPTab.Size = UDim2.new(0, 387, 0, 246)
+PvPTab.Visible = false
+
+TextButton_14.Parent = PvPTab
+TextButton_14.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_14.Position = UDim2.new(0.0258397926, 0, 0.027872825, 0)
+TextButton_14.Size = UDim2.new(0, 118, 0, 24)
+TextButton_14.Font = Enum.Font.SourceSansSemibold
+TextButton_14.Text = "CMD-X"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+TextButton_14.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+
+TextButton_15.Parent = PvPTab
+TextButton_15.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_15.Position = UDim2.new(0.346253246, 0, 0.027872825, 0)
+TextButton_15.Size = UDim2.new(0, 118, 0, 24)
+TextButton_15.Font = Enum.Font.SourceSansSemibold
+TextButton_15.Text = "Reviz"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+TextButton_15.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
+end)
+
+TextButton_16.Parent = PvPTab
+TextButton_16.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_16.Position = UDim2.new(0.671834648, 0, 0.027872825, 0)
+TextButton_16.Size = UDim2.new(0, 118, 0, 24)
+TextButton_16.Font = Enum.Font.SourceSansSemibold
+TextButton_16.Text = "Infinite Yield"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+TextButton_16.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TextLabel_3.Parent = PvPTab
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_3.Position = UDim2.new(0.0439276472, 0, 0.161497414, 0)
+TextLabel_3.Size = UDim2.new(0, 111, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Auto Attack"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextButton_17.Parent = PvPTab
+TextButton_17.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_17.Position = UDim2.new(0.0439276509, 0, 0.275840312, 0)
+TextButton_17.Size = UDim2.new(0, 54, 0, 24)
+TextButton_17.Font = Enum.Font.SourceSansSemibold
+TextButton_17.Text = "On"
+TextButton_17.TextColor3 = Color3.fromRGB(78, 255, 3)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextWrapped = true
+TextButton_17.MouseButton1Down:connect(function()
+	_G.on = 1
 	while _G.on == 1 do
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369, 15735.1797, -9)
 		local args = {
@@ -452,20 +527,99 @@ TextButton_10.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_14.Parent = TextButton_10
-
-TextButton_11.Parent = PvPTab
-TextButton_11.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_11.Position = UDim2.new(0.693586707, 0, 0.235714287, 0)
-TextButton_11.Size = UDim2.new(0, 117, 0, 32)
-TextButton_11.Font = Enum.Font.Highway
-TextButton_11.Text = "Psychic All Off"
-TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.TextScaled = true
-TextButton_11.TextSize = 14.000
-TextButton_11.TextWrapped = true
-TextButton_11.MouseButton1Down:connect(function()
+TextButton_18.Parent = PvPTab
+TextButton_18.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_18.Position = UDim2.new(0.18346256, 0, 0.275840312, 0)
+TextButton_18.Size = UDim2.new(0, 57, 0, 24)
+TextButton_18.Font = Enum.Font.SourceSansSemibold
+TextButton_18.Text = "Off"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 1, 1)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+TextButton_18.MouseButton1Down:connect(function()
 	_G.on = 0
+	while _G.on == 1 do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369, 15735.1797, -9)
+		local args = {
+			[1] = {
+				[1] = "+FS6"
+			}
+		}
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+
+		wait()
+		local Remote = game.ReplicatedStorage["RemoteEvent"]
+
+		local Arguments = {
+			[1] = {
+				[1] = "Skill_SpherePunch",
+				[2] = Vector3.new(-808.782837, 250.059631, 749.671082)
+			}
+		}
+
+		Remote:FireServer(unpack(Arguments))
+		wait()
+		local Remote = game.ReplicatedStorage["RemoteEvent"]
+
+		local Remote = game.ReplicatedStorage["RemoteEvent"]
+
+		local Arguments = {
+			[1] = {
+				[1] = "Skill_Punch",
+				[2] = "Left"
+			}
+		}
+
+		Remote:FireServer(unpack(Arguments))
+		wait()
+		local Remote = game.ReplicatedStorage["RemoteEvent"]
+
+		local Arguments = {
+			[1] = {
+				[1] = "Skill_Punch",
+				[2] = "Right"
+			}
+		}
+		wait()
+		Remote:FireServer(unpack(Arguments))
+	end
+end)
+
+TextLabel_4.Parent = PvPTab
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_4.Position = UDim2.new(0.354005158, 0, 0.161497414, 0)
+TextLabel_4.Size = UDim2.new(0, 111, 0, 28)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Psychic All"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = PvPTab
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_5.Position = UDim2.new(0.679586589, 0, 0.161497414, 0)
+TextLabel_5.Size = UDim2.new(0, 111, 0, 28)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Always Invis"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextButton_19.Parent = PvPTab
+TextButton_19.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_19.Position = UDim2.new(0.354005158, 0, 0.275840312, 0)
+TextButton_19.Size = UDim2.new(0, 54, 0, 24)
+TextButton_19.Font = Enum.Font.SourceSansSemibold
+TextButton_19.Text = "On"
+TextButton_19.TextColor3 = Color3.fromRGB(78, 255, 3)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+TextButton_19.MouseButton1Down:connect(function()
+	_G.on = 1
 	while _G.on == 1
 	do
 		for i,v in pairs(game.Players:GetPlayers()) do
@@ -479,19 +633,17 @@ TextButton_11.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_15.Parent = TextButton_11
-
-TextButton_12.Parent = PvPTab
-TextButton_12.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_12.Position = UDim2.new(0.0451306701, 0, 0.403571427, 0)
-TextButton_12.Size = UDim2.new(0, 117, 0, 32)
-TextButton_12.Font = Enum.Font.Highway
-TextButton_12.Text = "Always Invis On"
-TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.TextScaled = true
-TextButton_12.TextSize = 14.000
-TextButton_12.TextWrapped = true
-TextButton_12.MouseButton1Down:connect(function()
+TextButton_20.Parent = PvPTab
+TextButton_20.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_20.Position = UDim2.new(0.67958653, 0, 0.275840312, 0)
+TextButton_20.Size = UDim2.new(0, 54, 0, 24)
+TextButton_20.Font = Enum.Font.SourceSansSemibold
+TextButton_20.Text = "On"
+TextButton_20.TextColor3 = Color3.fromRGB(78, 255, 3)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextWrapped = true
+TextButton_20.MouseButton1Down:connect(function()
 	_G.on = 1
 	while _G.on == 1
 	do
@@ -506,19 +658,42 @@ TextButton_12.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_16.Parent = TextButton_12
+TextButton_21.Parent = PvPTab
+TextButton_21.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_21.Position = UDim2.new(0.493540078, 0, 0.275840312, 0)
+TextButton_21.Size = UDim2.new(0, 57, 0, 24)
+TextButton_21.Font = Enum.Font.SourceSansSemibold
+TextButton_21.Text = "Off"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 1, 1)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+TextButton_21.MouseButton1Down:connect(function()
+	_G.on = 0
+	while _G.on == 1
+	do
+		for i,v in pairs(game.Players:GetPlayers()) do
+			pcall(function()
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_Start",game.Players[v.Name]})
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_End"})
+			end)
 
-TextButton_13.Parent = PvPTab
-TextButton_13.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_13.Position = UDim2.new(0.693586707, 0, 0.403571427, 0)
-TextButton_13.Size = UDim2.new(0, 117, 0, 32)
-TextButton_13.Font = Enum.Font.Highway
-TextButton_13.Text = "Always Invis Off"
-TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_13.TextScaled = true
-TextButton_13.TextSize = 14.000
-TextButton_13.TextWrapped = true
-TextButton_13.MouseButton1Down:connect(function()
+			wait()
+		end
+	end
+end)
+
+TextButton_22.Parent = PvPTab
+TextButton_22.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_22.Position = UDim2.new(0.81912148, 0, 0.275840312, 0)
+TextButton_22.Size = UDim2.new(0, 57, 0, 24)
+TextButton_22.Font = Enum.Font.SourceSansSemibold
+TextButton_22.Text = "Off"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 1, 1)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+TextButton_22.MouseButton1Down:connect(function()
 	_G.on = 0
 	while _G.on == 1
 	do
@@ -533,116 +708,331 @@ TextButton_13.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_17.Parent = TextButton_13
+TextButton_23.Parent = PvPTab
+TextButton_23.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_23.Position = UDim2.new(0.0258398056, 0, 0.401856571, 0)
+TextButton_23.Size = UDim2.new(0, 118, 0, 24)
+TextButton_23.Font = Enum.Font.SourceSansSemibold
+TextButton_23.Text = "ESP"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+TextButton_23.MouseButton1Down:connect(function()
+	local Holder = Instance.new("Folder", game.CoreGui)
+	Holder.Name = "ESP"
 
-TextButton_14.Parent = PvPTab
-TextButton_14.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_14.Position = UDim2.new(0.363420427, 0, 0.235714287, 0)
-TextButton_14.Size = UDim2.new(0, 117, 0, 32)
-TextButton_14.Font = Enum.Font.Highway
-TextButton_14.Text = "AutoSpam Off"
-TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_14.TextScaled = true
-TextButton_14.TextSize = 14.000
-TextButton_14.TextWrapped = true
-TextButton_14.MouseButton1Down:connect(function()
-	_G.on = 0
-	while _G.on == 1 do
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369, 15735.1797, -9)
-		local args = {
-			[1] = {
-				[1] = "+FS6"
-			}
-		}
-		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+	local Box = Instance.new("BoxHandleAdornment")
+	Box.Name = "nilBox"
+	Box.Size = Vector3.new(4, 7, 4)
+	Box.Color3 = Color3.new(100 / 255, 100 / 255, 100 / 255)
+	Box.Transparency = 0.7
+	Box.ZIndex = 0
+	Box.AlwaysOnTop = true
+	Box.Visible = true
 
-		wait()
-		local Remote = game.ReplicatedStorage["RemoteEvent"]
+	local NameTag = Instance.new("BillboardGui")
+	NameTag.Name = "nilNameTag"
+	NameTag.Enabled = true
+	NameTag.Size = UDim2.new(0, 200, 0, 50)
+	NameTag.AlwaysOnTop = true
+	NameTag.StudsOffset = Vector3.new(0, 1.8, 0)
+	local Tag = Instance.new("TextLabel", NameTag)
+	Tag.Name = "Tag"
+	Tag.BackgroundTransparency = 1
+	Tag.Position = UDim2.new(0, -50, 0, 0)
+	Tag.Size = UDim2.new(0, 300, 0, 20)
+	Tag.TextSize = 20
+	Tag.TextColor3 = Color3.new(100 / 255, 100 / 255, 100 / 255)
+	Tag.TextStrokeColor3 = Color3.new(0 / 255, 0 / 255, 0 / 255)
+	Tag.TextStrokeTransparency = 0.4
+	Tag.Text = "nil"
+	Tag.Font = Enum.Font.SourceSansBold
+	Tag.TextScaled = false
 
-		local Arguments = {
-			[1] = {
-				[1] = "Skill_SpherePunch",
-				[2] = Vector3.new(-808.782837, 250.059631, 749.671082)
-			}
-		}
-
-		Remote:FireServer(unpack(Arguments))
-		wait()
-		local Remote = game.ReplicatedStorage["RemoteEvent"]
-
-		local Remote = game.ReplicatedStorage["RemoteEvent"]
-
-		local Arguments = {
-			[1] = {
-				[1] = "Skill_Punch",
-				[2] = "Left"
-			}
-		}
-
-		Remote:FireServer(unpack(Arguments))
-		wait()
-		local Remote = game.ReplicatedStorage["RemoteEvent"]
-
-		local Arguments = {
-			[1] = {
-				[1] = "Skill_Punch",
-				[2] = "Right"
-			}
-		}
-		wait()
-		Remote:FireServer(unpack(Arguments))
+	local LoadCharacter = function(v)
+		repeat wait() until v.Character ~= nil
+		v.Character:WaitForChild("Humanoid")
+		local vHolder = Holder:FindFirstChild(v.Name)
+		vHolder:ClearAllChildren()
+		local b = Box:Clone()
+		b.Name = v.Name .. "Box"
+		b.Adornee = v.Character
+		b.Parent = vHolder
+		local t = NameTag:Clone()
+		t.Name = v.Name .. "NameTag"
+		t.Enabled = true
+		t.Parent = vHolder
+		t.Adornee = v.Character:WaitForChild("Head", 5)
+		if not t.Adornee then
+			return UnloadCharacter(v)
+		end
+		t.Tag.Text = v.Name
+		b.Color3 = Color3.new(v.TeamColor.r, v.TeamColor.g, v.TeamColor.b)
+		t.Tag.TextColor3 = Color3.new(v.TeamColor.r, v.TeamColor.g, v.TeamColor.b)
+		local Update
+		local UpdateNameTag = function()
+			if not pcall(function()
+					v.Character.Humanoid.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+					local maxh = math.floor(v.Character.Humanoid.MaxHealth)
+					local h = math.floor(v.Character.Humanoid.Health)
+					t.Tag.Text = v.Name .. "\n" .. ((maxh ~= 0 and tostring(math.floor((h / maxh) * 100))) or "0") .. "%  " .. tostring(h) .. "/" .. tostring(maxh)
+				end) then
+				Update:Disconnect()
+			end
+		end
+		UpdateNameTag()
+		Update = v.Character.Humanoid.Changed:Connect(UpdateNameTag)
 	end
+
+	local UnloadCharacter = function(v)
+		local vHolder = Holder:FindFirstChild(v.Name)
+		if vHolder and (vHolder:FindFirstChild(v.Name .. "Box") ~= nil or vHolder:FindFirstChild(v.Name .. "NameTag") ~= nil) then
+			vHolder:ClearAllChildren()
+		end
+	end
+
+	local LoadPlayer = function(v)
+		local vHolder = Instance.new("Folder", Holder)
+		vHolder.Name = v.Name
+		v.CharacterAdded:Connect(function()
+			pcall(LoadCharacter, v)
+		end)
+		v.CharacterRemoving:Connect(function()
+			pcall(UnloadCharacter, v)
+		end)
+		v.Changed:Connect(function(prop)
+			if prop == "TeamColor" then
+				UnloadCharacter(v)
+				wait()
+				LoadCharacter(v)
+			end
+		end)
+		LoadCharacter(v)
+	end
+
+	local UnloadPlayer = function(v)
+		UnloadCharacter(v)
+		local vHolder = Holder:FindFirstChild(v.Name)
+		if vHolder then
+			vHolder:Destroy()
+		end
+	end
+
+	for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+		spawn(function() pcall(LoadPlayer, v) end)
+	end
+
+	game:GetService("Players").PlayerAdded:Connect(function(v)
+		pcall(LoadPlayer, v)
+	end)
+
+	game:GetService("Players").PlayerRemoving:Connect(function(v)
+		pcall(UnloadPlayer, v)
+	end)
+
+	game:GetService("Players").LocalPlayer.NameDisplayDistance = 0
+
+
 end)
 
-UICorner_18.Parent = TextButton_14
+TextButton_24.Parent = PvPTab
+TextButton_24.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_24.Position = UDim2.new(0.671834648, 0, 0.401856571, 0)
+TextButton_24.Size = UDim2.new(0, 118, 0, 24)
+TextButton_24.Font = Enum.Font.SourceSansSemibold
+TextButton_24.Text = "Respawn"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 14.000
+TextButton_24.TextWrapped = true
+TextButton_24.MouseButton1Down:connect(function()
+	print("LMFAO thanks for using this ngl, really helps i guess, Ghouls")
+	print("F1                        Respawn")
+	print("F5                        instant spawn")
+	print("F6                        turn off instant spawn")
+	print("F7                        turn auto respawn on")
+	print("F8                        turn auto respawn off")
+	local SavePosition = Instance.new("TextLabel")
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+			game.Lighting.Blur.Enabled = false
+			game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+			lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+			lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
+			lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+			SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
+			--print(tostring(SavePosition.Text))
+			--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
+			--print(tostring(SavePosition.Text))
+			wait(0.599)
+			--print("screengui disabled")
+			repeat wait(0.999) until game.Players.LocalPlayer.Character.Humanoid
+			--print("Teleporting back to " ..tostring(SavePosition.Text))
+			local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+		end
+	end)
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			_G.on = 1
+			while _G.on == 1
+			do
+				game.Lighting.Blur.Enabled = false
+				game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
+				game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+				wait()	
+			end
+		end
+	end)
 
-FunTab.Name = "FunTab"
-FunTab.Parent = Frame
-FunTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FunTab.BackgroundTransparency = 1.000
-FunTab.Position = UDim2.new(0, 0, 0.249329761, 0)
-FunTab.Size = UDim2.new(0, 421, 0, 280)
-FunTab.Visible = false
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F5 then
+			_G.Toggle = true
+			while _G.Toggle do
+				wait()
+				for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == "ForceField" then
+						v:Destroy()
+					end
+				end
+			end
+		end
+	end)
 
-TextButton_15.Parent = FunTab
-TextButton_15.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_15.Position = UDim2.new(0.0285035893, 0, 0.0178571418, 0)
-TextButton_15.Size = UDim2.new(0, 117, 0, 32)
-TextButton_15.Font = Enum.Font.Highway
-TextButton_15.Text = "Rank Changer"
-TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_15.TextScaled = true
-TextButton_15.TextSize = 14.000
-TextButton_15.TextWrapped = true
-TextButton_15.MouseButton1Down:connect(function()
-	while wait do
-		wait (.3) -- how fast to switch between ranks
-		local Remote = game.ReplicatedStorage['RemoteEvent']
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F6 then
+			_G.Toggle = false
+			while _G.Toggle do
+				wait()
+				for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == "ForceField" then
+						v:Destroy()
+					end
+				end
+			end
+		end
+	end)
 
-		local Arguments = {
-			[1] = {
-				[1] = "ChangeRankEmblem",
-				[2] = math.random (1,11) --1 = min rank 12 = max rank
-			}
-		}
 
-		Remote:FireServer(unpack(Arguments))
-	end
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F7 then
+			_G.on = 1
+			while _G.on == 1
+			do
+				print("\nauto respawn script made by t h e p l a y e r�#9980")
+				wait(9)
+				local SavePosition = Instance.new("TextLabel")
+				player = game.Players.LocalPlayer.Character.Humanoid
+				player.HealthChanged:Connect(function(hp)
+					if hp <= player.MaxHealth * 0.599 then
+						wait()
+						game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+						lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+						lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
+						lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+						SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
+						--print(tostring(SavePosition.Text))
+						--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
+						--print(tostring(SavePosition.Text))
+						wait(1)
+						--print("screengui disabled")
+						repeat wait(1) until game.Players.LocalPlayer.Character.Humanoid
+						--print("Teleporting back to " ..tostring(SavePosition.Text))
+						local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+						wait()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+						wait()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+					end
+				end)
+			end
+		end
+	end)
+
+
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F8 then
+			_G.on = 0
+			while _G.on == 1
+			do
+
+				print("\nauto respawn script made by t h e p l a y e r�#9980")
+				wait(9)
+				local SavePosition = Instance.new("TextLabel")
+				player = game.Players.LocalPlayer.Character.Humanoid
+				player.HealthChanged:Connect(function(hp)
+					if hp <= player.MaxHealth * 0.599 then
+						wait()
+						game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+						lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+						lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
+						lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+						SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
+						--print(tostring(SavePosition.Text))
+						--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
+						--print(tostring(SavePosition.Text))
+						wait(1)
+						--print("screengui disabled")
+						repeat wait(3) until game.Players.LocalPlayer.Character.Humanoid
+						--print("Teleporting back to " ..tostring(SavePosition.Text))
+						local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+					end
+				end)
+			end
+		end
+	end)
+
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			_G.on = 1
+			while _G.on == 1
+			do
+				game.Lighting.Blur.Enabled = false
+				game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = true
+				game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+				wait()	
+			end
+		end
+	end)
+
 end)
 
-UICorner_19.Parent = TextButton_15
+MiscTab.Name = "MiscTab"
+MiscTab.Parent = Frame
+MiscTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscTab.BackgroundTransparency = 1.000
+MiscTab.BorderColor3 = Color3.fromRGB(255, 255, 248)
+MiscTab.Position = UDim2.new(0, 0, 0.265671641, 0)
+MiscTab.Size = UDim2.new(0, 387, 0, 246)
+MiscTab.Visible = false
 
-TextButton_16.Parent = FunTab
-TextButton_16.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_16.Position = UDim2.new(0.363420457, 0, 0.0178571418, 0)
-TextButton_16.Size = UDim2.new(0, 117, 0, 32)
-TextButton_16.Font = Enum.Font.Highway
-TextButton_16.Text = "Better Graphics"
-TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_16.TextScaled = true
-TextButton_16.TextSize = 14.000
-TextButton_16.TextWrapped = true
-TextButton_16.MouseButton1Down:connect(function()
+TextButton_25.Parent = MiscTab
+TextButton_25.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_25.Position = UDim2.new(0.346253246, 0, 0.0238077827, 0)
+TextButton_25.Size = UDim2.new(0, 118, 0, 24)
+TextButton_25.Font = Enum.Font.SourceSansSemibold
+TextButton_25.Text = "Better Graphics"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+TextButton_25.MouseButton1Down:connect(function()
 	-- // Constants \\ --
 
 	-- [ Services ] --
@@ -778,151 +1168,32 @@ TextButton_16.MouseButton1Down:connect(function()
 	return GraphicX
 end)
 
-UICorner_20.Parent = TextButton_16
+TextButton_26.Parent = MiscTab
+TextButton_26.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_26.Position = UDim2.new(0.671834648, 0, 0.0238077827, 0)
+TextButton_26.Size = UDim2.new(0, 118, 0, 24)
+TextButton_26.Font = Enum.Font.SourceSansSemibold
+TextButton_26.Text = "Multi Checker"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.TextScaled = true
+TextButton_26.TextSize = 14.000
+TextButton_26.TextWrapped = true
+TextButton_26.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Projectedx/pay2winchecker/main/script"))()
 
-TextButton_17.Parent = FunTab
-TextButton_17.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_17.Position = UDim2.new(0.693586707, 0, 0.0178571418, 0)
-TextButton_17.Size = UDim2.new(0, 117, 0, 32)
-TextButton_17.Font = Enum.Font.Highway
-TextButton_17.Text = "Godmode (Talk With GhostRider)"
-TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_17.TextScaled = true
-TextButton_17.TextSize = 14.000
-TextButton_17.TextWrapped = true
-TextButton_17.MouseButton1Down:connect(function()
-	stopQuest = true;
-
-	function NoKill()
-		local Character = game:GetService'Players'.LocalPlayer.Character
-		local mt = getrawmetatable(game)
-		local OldIndex = mt.__index
-		local OldNameCall = mt.__namecall
-
-		setreadonly(mt, false)
-
-		mt.__namecall = newcclosure(function(Self,...)
-			local args = {...}
-			local NameCallMethod = getnamecallmethod()
-			if not checkcaller() and Self == Character and NameCallMethod == "BreakJoints" then
-				return nil
-			end
-			return OldNameCall(Self,...)  
-
-		end)
-
-		setreadonly(mt, true)
-	end
-
-	function fixCam()
-		local CurrentCamera = workspace.CurrentCamera;
-		CurrentCamera.CameraSubject = game.Players['LocalPlayer'].Character.Humanoid
-		CurrentCamera.CameraType = Enum.CameraType.Custom
-	end
-
-	function SetSpeed(speed)
-		local isSpeed = assert(tonumber(speed), 'Must be a number')
-		game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(speed) 
-	end
-
-	function CanAttack()
-		local MainScript = game:GetService("Players").LocalPlayer.PlayerScripts.MainScript
-
-		while stopQuest do
-			wait(0.01)
-			getsenv(MainScript).TalkingOnQuest = false;
-		end
-	end
-
-	NoKill()
-	fixCam()
-	CanAttack()
 end)
 
-UICorner_21.Parent = TextButton_17
-
-TextButton_18.Parent = FunTab
-TextButton_18.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_18.Position = UDim2.new(0.693586707, 0, 0.175000012, 0)
-TextButton_18.Size = UDim2.new(0, 117, 0, 32)
-TextButton_18.Font = Enum.Font.Highway
-TextButton_18.Text = "DarkMode"
-TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.TextScaled = true
-TextButton_18.TextSize = 14.000
-TextButton_18.TextWrapped = true
-TextButton_18.MouseButton1Down:connect(function()
-	while wait(.0000001) do 
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuBtn.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.GangFrame.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SpecialFrame.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService('Players').LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BackgroundColor3 = Color3.new(0,0,0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.NameTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RankTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.StatusTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.KilledTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.FSTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BTTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.MSTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.JFTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.PPTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RepTxt.TextColor3 = Color3.new(255, 255, 255)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.GuideTxt.TextColor3 = Color3.new(0, 0, 0)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt1.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt2.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt3.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt4.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt5.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt6.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt7.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt8.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt9.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt10.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt11.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt13.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt14.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt15.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt16.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt17.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt18.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt19.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt1.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt2.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt3.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt4.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt5.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt6.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt7.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt8.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt9.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt10.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt11.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt12.TextColor3 =Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt13.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt14.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt15.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt16.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt17.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt18.TextColor3 = Color3.new(74, 195, 68)
-		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt0.TextColor3 = Color3.new(74, 195, 68)
-	end
-end)
-
-UICorner_22.Parent = TextButton_18
-
-TextButton_19.Parent = FunTab
-TextButton_19.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_19.Position = UDim2.new(0.0285035968, 0, 0.175000012, 0)
-TextButton_19.Size = UDim2.new(0, 117, 0, 32)
-TextButton_19.Font = Enum.Font.Highway
-TextButton_19.Text = "Chatspy"
-TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.TextScaled = true
-TextButton_19.TextSize = 14.000
-TextButton_19.TextWrapped = true
-TextButton_19.MouseButton1Down:connect(function()
+TextButton_27.Parent = MiscTab
+TextButton_27.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_27.Position = UDim2.new(0.0258397926, 0, 0.023807805, 0)
+TextButton_27.Size = UDim2.new(0, 118, 0, 24)
+TextButton_27.Font = Enum.Font.SourceSansSemibold
+TextButton_27.Text = "Chat Spy"
+TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.TextScaled = true
+TextButton_27.TextSize = 14.000
+TextButton_27.TextWrapped = true
+TextButton_27.MouseButton1Down:connect(function()
 	--This script reveals ALL hidden messages in the default chat
 
 	enabled = true --chat "/spy" to toggle!
@@ -983,21 +1254,45 @@ TextButton_19.MouseButton1Down:connect(function()
 	local chatFrame = player.PlayerGui.Chat.Frame
 	chatFrame.ChatChannelParentFrame.Visible = true
 	chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+
 end)
 
-UICorner_23.Parent = TextButton_19
+TextButton_28.Parent = MiscTab
+TextButton_28.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_28.Position = UDim2.new(0.0258397926, 0, 0.182344392, 0)
+TextButton_28.Size = UDim2.new(0, 118, 0, 24)
+TextButton_28.Font = Enum.Font.SourceSansSemibold
+TextButton_28.Text = "Remove name"
+TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_28.TextScaled = true
+TextButton_28.TextSize = 14.000
+TextButton_28.TextWrapped = true
+TextButton_28.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+		if v.Name == "NameBbGui" then
+			v:Destroy()
+		end
+	end
 
-TextButton_20.Parent = FunTab
-TextButton_20.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_20.Position = UDim2.new(0.358669877, 0, 0.175000012, 0)
-TextButton_20.Size = UDim2.new(0, 117, 0, 32)
-TextButton_20.Font = Enum.Font.Highway
-TextButton_20.Text = "Earrape"
-TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_20.TextScaled = true
-TextButton_20.TextSize = 14.000
-TextButton_20.TextWrapped = true
-TextButton_20.MouseButton1Down:connect(function()
+
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+		if v.Name == "RankBbGui" then
+			v:Destroy()
+		end
+	end
+end)
+
+TextButton_29.Parent = MiscTab
+TextButton_29.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_29.Position = UDim2.new(0.346253246, 0, 0.182344377, 0)
+TextButton_29.Size = UDim2.new(0, 118, 0, 24)
+TextButton_29.Font = Enum.Font.SourceSansSemibold
+TextButton_29.Text = "Ear rape"
+TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_29.TextScaled = true
+TextButton_29.TextSize = 14.000
+TextButton_29.TextWrapped = true
+TextButton_29.MouseButton1Down:connect(function()
 	while wait(0.2) do
 		for _,plr in pairs(game.Players:GetPlayers()) do
 			pcall(function()
@@ -1011,19 +1306,86 @@ TextButton_20.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_24.Parent = TextButton_20
+TextButton_30.Parent = MiscTab
+TextButton_30.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_30.Position = UDim2.new(0.671834648, 0, 0.182344392, 0)
+TextButton_30.Size = UDim2.new(0, 118, 0, 24)
+TextButton_30.Font = Enum.Font.SourceSansSemibold
+TextButton_30.Text = "Dark mode"
+TextButton_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_30.TextScaled = true
+TextButton_30.TextSize = 14.000
+TextButton_30.TextWrapped = true
+TextButton_30.MouseButton1Down:connect(function()
+	while wait(.0000001) do 
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuBtn.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.GangFrame.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SpecialFrame.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService('Players').LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BackgroundColor3 = Color3.new(0,0,0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.NameTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RankTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.StatusTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.KilledTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.FSTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BTTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.MSTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.JFTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.PPTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RepTxt.TextColor3 = Color3.new(255, 255, 255)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.GuideTxt.TextColor3 = Color3.new(0, 0, 0)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt1.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt2.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt3.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt4.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt5.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt6.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt7.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt8.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt9.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt10.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt11.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt13.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt14.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt15.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt16.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt17.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt18.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt19.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt1.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt2.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt3.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt4.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt5.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt6.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt7.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt8.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt9.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt10.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt11.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt12.TextColor3 =Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt13.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt14.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt15.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt16.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt17.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt18.TextColor3 = Color3.new(74, 195, 68)
+		game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt0.TextColor3 = Color3.new(74, 195, 68)
+	end
+end)
 
-TextButton_21.Parent = FunTab
-TextButton_21.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_21.Position = UDim2.new(0.358669877, 0, 0.332142889, 0)
-TextButton_21.Size = UDim2.new(0, 117, 0, 32)
-TextButton_21.Font = Enum.Font.Highway
-TextButton_21.Text = "SpamVoid GUI (Breaks Alot)"
-TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.TextScaled = true
-TextButton_21.TextSize = 14.000
-TextButton_21.TextWrapped = true
-TextButton_21.MouseButton1Down:connect(function()
+TextButton_31.Parent = MiscTab
+TextButton_31.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_31.Position = UDim2.new(0.0258397926, 0, 0.34088096, 0)
+TextButton_31.Size = UDim2.new(0, 118, 0, 24)
+TextButton_31.Font = Enum.Font.SourceSansSemibold
+TextButton_31.Text = "SpamVoid Gui (Breaks a lot)"
+TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_31.TextScaled = true
+TextButton_31.TextSize = 14.000
+TextButton_31.TextWrapped = true
+TextButton_31.MouseButton1Down:connect(function()
 	local playertokill = ""
 	_G.toggle = false
 
@@ -1197,422 +1559,124 @@ TextButton_21.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_25.Parent = TextButton_21
+TextButton_32.Parent = MiscTab
+TextButton_32.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_32.Position = UDim2.new(0.348837227, 0, 0.34088096, 0)
+TextButton_32.Size = UDim2.new(0, 118, 0, 24)
+TextButton_32.Font = Enum.Font.SourceSansSemibold
+TextButton_32.Text = "Rank changer"
+TextButton_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_32.TextScaled = true
+TextButton_32.TextSize = 14.000
+TextButton_32.TextWrapped = true
+TextButton_32.MouseButton1Down:connect(function()
+	while wait do
+		wait (.3) -- how fast to switch between ranks
+		local Remote = game.ReplicatedStorage['RemoteEvent']
 
-TextButton_22.Parent = FunTab
-TextButton_22.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_22.Position = UDim2.new(0.693586707, 0, 0.33214286, 0)
-TextButton_22.Size = UDim2.new(0, 117, 0, 32)
-TextButton_22.Font = Enum.Font.Highway
-TextButton_22.Text = "Claim Dailies"
-TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_22.TextScaled = true
-TextButton_22.TextSize = 14.000
-TextButton_22.TextWrapped = true
-TextButton_22.MouseButton1Down:connect(function()
-	if game.PlaceId ~= 2202352383 then
-		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-		return
-	end
+		local Arguments = {
+			[1] = {
+				[1] = "ChangeRankEmblem",
+				[2] = math.random (1,11) --1 = min rank 12 = max rank
+			}
+		}
 
-	local args = {
-		[1] = {
-			[1] = "DLQ",
-			[2] = "FS",
-			[3] = "Claim",
-		},
-	}
-
-	while wait(5) do
-		print("working")
-		for _, v in pairs({ "FS", "BT", "MS", "JF", "PP" }) do
-			args[1][2] = v
-			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
-			wait()
-		end
-
-		wait()
-		print("dailys collected")
+		Remote:FireServer(unpack(Arguments))
 	end
 end)
 
-UICorner_26.Parent = TextButton_22
+TextButton_33.Parent = MiscTab
+TextButton_33.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_33.Position = UDim2.new(0.671834648, 0, 0.34088096, 0)
+TextButton_33.Size = UDim2.new(0, 118, 0, 24)
+TextButton_33.Font = Enum.Font.SourceSansSemibold
+TextButton_33.Text = "GodMode (Talk with Ghost Rider)"
+TextButton_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_33.TextScaled = true
+TextButton_33.TextSize = 14.000
+TextButton_33.TextWrapped = true
+TextButton_33.MouseButton1Down:connect(function()
+	stopQuest = true;
 
-TextButton_23.Parent = FunTab
-TextButton_23.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_23.Position = UDim2.new(0.0285035968, 0, 0.33214286, 0)
-TextButton_23.Size = UDim2.new(0, 117, 0, 32)
-TextButton_23.Font = Enum.Font.Highway
-TextButton_23.Text = "Claim Weeklies"
-TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.TextScaled = true
-TextButton_23.TextSize = 14.000
-TextButton_23.TextWrapped = true
-TextButton_23.MouseButton1Down:connect(function()
-	if game.PlaceId ~= 2202352383 then
-		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-		return
+	function NoKill()
+		local Character = game:GetService'Players'.LocalPlayer.Character
+		local mt = getrawmetatable(game)
+		local OldIndex = mt.__index
+		local OldNameCall = mt.__namecall
+
+		setreadonly(mt, false)
+
+		mt.__namecall = newcclosure(function(Self,...)
+			local args = {...}
+			local NameCallMethod = getnamecallmethod()
+			if not checkcaller() and Self == Character and NameCallMethod == "BreakJoints" then
+				return nil
+			end
+			return OldNameCall(Self,...)  
+
+		end)
+
+		setreadonly(mt, true)
 	end
 
-	local args = {
-		[1] = {
-			[1] = "WLQ",
-			[2] = "FS1",
-			[3] = "Claim",
-		},
-	}
+	function fixCam()
+		local CurrentCamera = workspace.CurrentCamera;
+		CurrentCamera.CameraSubject = game.Players['LocalPlayer'].Character.Humanoid
+		CurrentCamera.CameraType = Enum.CameraType.Custom
+	end
 
-	while wait(5) do
-		print("working")
-		for _, v in pairs({ "FS1", "PP1", "BT1", "FS2", "BT2", "PP2", "FS3", "BT3", "PP3" }) do
-			args[1][2] = v
-			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
-			wait()
+	function SetSpeed(speed)
+		local isSpeed = assert(tonumber(speed), 'Must be a number')
+		game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(speed) 
+	end
+
+	function CanAttack()
+		local MainScript = game:GetService("Players").LocalPlayer.PlayerScripts.MainScript
+
+		while stopQuest do
+			wait(0.01)
+			getsenv(MainScript).TalkingOnQuest = false;
 		end
-
-		wait()
 	end
+
+	NoKill()
+	fixCam()
+	CanAttack()
 end)
 
-UICorner_27.Parent = TextButton_23
-
-TextButton_24.Parent = FunTab
-TextButton_24.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_24.Position = UDim2.new(0.363420457, 0, 0.510714293, 0)
-TextButton_24.Size = UDim2.new(0, 117, 0, 32)
-TextButton_24.Font = Enum.Font.Highway
-TextButton_24.Text = "Tornado (E To move)"
-TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.TextScaled = true
-TextButton_24.TextSize = 14.000
-TextButton_24.TextWrapped = true
-TextButton_24.MouseButton1Down:connect(function()
-	local UserInputService = game:GetService("UserInputService")
-	local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
-	local Folder = Instance.new("Folder", game:GetService("Workspace"))
-	local Part = Instance.new("Part", Folder)
-	local Attachment1 = Instance.new("Attachment", Part)
-	Part.Anchored = true
-	Part.CanCollide = false
-	Part.Transparency = 1
-	local Updated = Mouse.Hit + Vector3.new(0, 5, 0)
-	local NetworkAccess = coroutine.create(function()
-		settings().Physics.AllowSleep = false
-		while game:GetService("RunService").RenderStepped:Wait() do
-			for _, Players in next, game:GetService("Players"):GetPlayers() do
-				if Players ~= game:GetService("Players").LocalPlayer then
-					Players.MaximumSimulationRadius = 0 
-					sethiddenproperty(Players, "SimulationRadius", 0) 
-				end 
-			end
-			game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)
-			setsimulationradius(math.huge) 
-		end 
-	end) 
-	coroutine.resume(NetworkAccess)
-	local function ForcePart(v)
-		if v:IsA("Part") and v.Anchored == false and v.Parent:FindFirstChild("Humanoid") == nil and v.Parent:FindFirstChild("Head") == nil and v.Name ~= "Handle" then
-			Mouse.TargetFilter = v
-			for _, x in next, v:GetChildren() do
-				if x:IsA("BodyAngularVelocity") or x:IsA("BodyForce") or x:IsA("BodyGyro") or x:IsA("BodyPosition") or x:IsA("BodyThrust") or x:IsA("BodyVelocity") or x:IsA("RocketPropulsion") then
-					x:Destroy()
-				end
-			end
-			if v:FindFirstChild("Attachment") then
-				v:FindFirstChild("Attachment"):Destroy()
-			end
-			if v:FindFirstChild("AlignPosition") then
-				v:FindFirstChild("AlignPosition"):Destroy()
-			end
-			if v:FindFirstChild("Torque") then
-				v:FindFirstChild("Torque"):Destroy()
-			end
-			v.CanCollide = false
-			local Torque = Instance.new("Torque", v)
-			Torque.Torque = Vector3.new(100000, 100000, 100000)
-			local AlignPosition = Instance.new("AlignPosition", v)
-			local Attachment2 = Instance.new("Attachment", v)
-			Torque.Attachment0 = Attachment2
-			AlignPosition.MaxForce = 9999999999999999
-			AlignPosition.MaxVelocity = math.huge
-			AlignPosition.Responsiveness = 200
-			AlignPosition.Attachment0 = Attachment2 
-			AlignPosition.Attachment1 = Attachment1
-		end
-	end
-	for _, v in next, game:GetService("Workspace"):GetDescendants() do
-		ForcePart(v)
-	end
-	game:GetService("Workspace").DescendantAdded:Connect(function(v)
-		ForcePart(v)
-	end)
-	UserInputService.InputBegan:Connect(function(Key, Chat)
-		if Key.KeyCode == Enum.KeyCode.e and not Chat then
-			Updated = Mouse.Hit + Vector3.new(0, 5, 0)
-		end
-	end)
-	spawn(function()
-		while game:GetService("RunService").RenderStepped:Wait() do
-			Attachment1.WorldCFrame = Updated
-		end
-	end)
+TextButton_34.Parent = Frame
+TextButton_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_34.BackgroundTransparency = 1.000
+TextButton_34.Position = UDim2.new(0.770025849, 0, 0, 0)
+TextButton_34.Size = UDim2.new(0, 102, 0, 21)
+TextButton_34.Font = Enum.Font.SourceSansSemibold
+TextButton_34.Text = "Close"
+TextButton_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_34.TextScaled = true
+TextButton_34.TextSize = 14.000
+TextButton_34.TextWrapped = true
+TextButton_34.MouseButton1Down:connect(function()
+	Frame.Visible = false
+	Frame_2.Visible = true
 end)
-
-UICorner_28.Parent = TextButton_24
-
-TextButton_25.Parent = FunTab
-TextButton_25.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_25.Position = UDim2.new(0.693586707, 0, 0.510714293, 0)
-TextButton_25.Size = UDim2.new(0, 117, 0, 32)
-TextButton_25.Font = Enum.Font.Highway
-TextButton_25.Text = "MultiChecker"
-TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_25.TextScaled = true
-TextButton_25.TextSize = 14.000
-TextButton_25.TextWrapped = true
-TextButton_25.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Projectedx/pay2winchecker/main/script"))()
-end)
-
-UICorner_29.Parent = TextButton_25
-
-TextButton_26.Parent = FunTab
-TextButton_26.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextButton_26.Position = UDim2.new(0.0285035968, 0, 0.510714293, 0)
-TextButton_26.Size = UDim2.new(0, 117, 0, 32)
-TextButton_26.Font = Enum.Font.Highway
-TextButton_26.Text = "Remove Name"
-TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_26.TextScaled = true
-TextButton_26.TextSize = 14.000
-TextButton_26.TextWrapped = true
-TextButton_26.MouseButton1Down:connect(function()
-	for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-		if v.Name == "NameBbGui" then
-			v:Destroy()
-		end
-	end
-
-
-	for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-		if v.Name == "RankBbGui" then
-			v:Destroy()
-		end
-	end
-end)
-
-UICorner_30.Parent = TextButton_26
-
-TextButton_27.Parent = Frame
-TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_27.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_27.Position = UDim2.new(0.00190728903, 0, 0.238723427, 0)
-TextButton_27.Size = UDim2.new(0, 420, 0, 0)
-TextButton_27.Font = Enum.Font.SourceSans
-TextButton_27.Text = "   "
-TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_27.TextSize = 14.000
-
-respawn.Name = "respawn"
-respawn.Parent = Frame
-respawn.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-respawn.Position = UDim2.new(0.266033262, 0, 0.841823041, 0)
-respawn.Size = UDim2.new(0, 198, 0, 50)
-respawn.Modal = true
-respawn.Font = Enum.Font.Highway
-respawn.Text = "Respawn"
-respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
-respawn.TextScaled = true
-respawn.TextSize = 14.000
-respawn.TextWrapped = true
-respawn.MouseButton1Down:connect(function()
-	print("LMFAO thanks for using this ngl, really helps i guess, Ghouls")
-		print("F1                        Respawn")
-		print("F5                        instant spawn")
-		print("F6                        turn off instant spawn")
-		print("F7                        turn auto respawn on")
-		print("F8                        turn auto respawn off")
-		local SavePosition = Instance.new("TextLabel")
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F1 then
-				game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
-				game.Lighting.Blur.Enabled = false
-				game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
-				game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
-				lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
-				lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
-				lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
-				SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
-				--print(tostring(SavePosition.Text))
-				--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
-				--print(tostring(SavePosition.Text))
-				wait(0.599)
-				--print("screengui disabled")
-				repeat wait(0.999) until game.Players.LocalPlayer.Character.Humanoid
-				--print("Teleporting back to " ..tostring(SavePosition.Text))
-				local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-				wait()
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-				wait()
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-			end
-		end)
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F1 then
-				_G.on = 1
-				while _G.on == 1
-				do
-					game.Lighting.Blur.Enabled = false
-					game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
-					game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
-					wait()	
-				end
-			end
-		end)
-
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F5 then
-				_G.Toggle = true
-				while _G.Toggle do
-					wait()
-					for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-						if v.Name == "ForceField" then
-							v:Destroy()
-						end
-					end
-				end
-			end
-		end)
-
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F6 then
-				_G.Toggle = false
-				while _G.Toggle do
-					wait()
-					for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-						if v.Name == "ForceField" then
-							v:Destroy()
-						end
-					end
-				end
-			end
-		end)
-
-
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F7 then
-				_G.on = 1
-				while _G.on == 1
-				do
-					print("\nauto respawn script made by t h e p l a y e r�#9980")
-					wait(9)
-					local SavePosition = Instance.new("TextLabel")
-					player = game.Players.LocalPlayer.Character.Humanoid
-					player.HealthChanged:Connect(function(hp)
-						if hp <= player.MaxHealth * 0.599 then
-							wait()
-							game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
-							lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
-							lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
-							lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
-							SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
-							--print(tostring(SavePosition.Text))
-							--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
-							--print(tostring(SavePosition.Text))
-							wait(1)
-							--print("screengui disabled")
-							repeat wait(1) until game.Players.LocalPlayer.Character.Humanoid
-							--print("Teleporting back to " ..tostring(SavePosition.Text))
-							local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-							wait()
-							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-							wait()
-							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-						end
-					end)
-				end
-			end
-		end)
-
-
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F8 then
-				_G.on = 0
-				while _G.on == 1
-				do
-
-					print("\nauto respawn script made by t h e p l a y e r�#9980")
-					wait(9)
-					local SavePosition = Instance.new("TextLabel")
-					player = game.Players.LocalPlayer.Character.Humanoid
-					player.HealthChanged:Connect(function(hp)
-						if hp <= player.MaxHealth * 0.599 then
-							wait()
-							game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
-							lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
-							lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
-							lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
-							SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
-							--print(tostring(SavePosition.Text))
-							--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
-							--print(tostring(SavePosition.Text))
-							wait(1)
-							--print("screengui disabled")
-							repeat wait(3) until game.Players.LocalPlayer.Character.Humanoid
-							--print("Teleporting back to " ..tostring(SavePosition.Text))
-							local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
-						end
-					end)
-				end
-			end
-		end)
-
-		local Imput = game:GetService("UserInputService")
-		Imput.InputBegan:connect(function(inst)
-			if inst.KeyCode == Enum.KeyCode.F1 then
-				_G.on = 1
-				while _G.on == 1
-				do
-					game.Lighting.Blur.Enabled = false
-					game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = true
-					game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
-					wait()	
-				end
-			end
-		end)
-
-end)
-
-UICorner_31.Parent = respawn
-
 
 Frame_2.Parent = ScreenGui
-Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.Position = UDim2.new(0.00616903137, 0, 0.937346458, 0)
-Frame_2.Size = UDim2.new(0, 110, 0, 33)
-Frame_2.Visible = true
-Frame_2.Active = true
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0.00990098994, 0, 0.887265146, 0)
+Frame_2.Size = UDim2.new(0, 109, 0, 34)
 
-TextButton_28.Parent = Frame_2
-TextButton_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_28.BackgroundTransparency = 1.000
-TextButton_28.Size = UDim2.new(0, 110, 0, 33)
-TextButton_28.Font = Enum.Font.SourceSans
-TextButton_28.Text = "Open"
-TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_28.TextScaled = true
-TextButton_28.TextSize = 14.000
-TextButton_28.TextWrapped = true
-TextButton_28.MouseButton1Down:connect(function()
-	Frame.Visible = true
+TextButton_35.Parent = Frame_2
+TextButton_35.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_35.Size = UDim2.new(0, 109, 0, 34)
+TextButton_35.Font = Enum.Font.SourceSans
+TextButton_35.Text = "Open"
+TextButton_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_35.TextScaled = true
+TextButton_35.TextSize = 14.000
+TextButton_35.TextWrapped = true
+TextButton_35.MouseButton1Down:connect(function()
 	Frame_2.Visible = false
+	Frame.Visible = true
 end)
+
+	
