@@ -1034,20 +1034,6 @@ Section:NewButton("RespawnScript", "Check F9 For Information", function()
 			end
 		end
 	end)
-
-	local Imput = game:GetService("UserInputService")
-	Imput.InputBegan:connect(function(inst)
-		if inst.KeyCode == Enum.KeyCode.F1 then
-			_G.on = 1
-			while _G.on == 1
-			do
-				game.Lighting.Blur.Enabled = false
-				game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
-				game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
-				wait()	
-			end
-		end
-	end)
 end)
 Section:NewToggle("AttackSpam", "Spams All Attacks", function(state)
     if state then
